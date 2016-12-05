@@ -1,6 +1,6 @@
 {
   "name": "phl-park",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Live parking availability for the Philadelphia Internation Airport garages and lots.",
   "main": "index.js",
   "engines": {

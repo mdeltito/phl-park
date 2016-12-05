@@ -75,7 +75,7 @@ export function getGarageChartOpts (garage) {
 
 export function getGarageChartData (garage) {
   let data = {
-    labels: ['😎 Available', '☹ Occupied', '♿ Accessible'],
+    labels: ['Available', 'Occupied', 'Accessible'],
     datasets: [{
       data: [
         parseInt(garage.spaces_available),
