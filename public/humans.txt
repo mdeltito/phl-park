@@ -1,0 +1,10 @@
+# Check it out: http://humanstxt.org/
+
+# TEAM
+
+    Mike Del Tito -- Creator -- @mdeltito
+
+# THANKS
+
+    React, Redux, and many other JS dependencies
+

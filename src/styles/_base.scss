@@ -1,0 +1,12 @@
+$color--blue: #005373;
+$color--green: #00735A;
+$color--red: #732100;
+$color--yellow: #FFCE56;
+
+@mixin font--changa {
+  font-family: 'Changa', sans-serif;
+}
+
+@mixin font--changa-one {
+  font-family: 'Changa One', cursive;
+}

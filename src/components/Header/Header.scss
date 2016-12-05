@@ -1,0 +1,12 @@
+@import 'base';
+
+.logo {
+  @include font--changa-one;
+  color: #FFF;
+  text-align: center;
+
+  &:hover {
+    text-decoration: none;
+    color: #EEE;
+  }
+}

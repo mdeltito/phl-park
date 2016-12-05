@@ -1,0 +1,9 @@
+version: '2'
+services:
+  web:
+    build: .
+    environment:
+      VIRTUAL_HOST: phl-park.mdel.io
+      VIRTUAL_PORT: 7080
+    ports:
+     - "7080:80"
