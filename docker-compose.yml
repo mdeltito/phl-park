@@ -4,6 +4,4 @@ services:
     build: .
     environment:
       VIRTUAL_HOST: phl-park.mdel.io
-      VIRTUAL_PORT: 7080
-    ports:
-     - "7080:80"
+      VIRTUAL_PORT: 80
