@@ -3,5 +3,13 @@ services:
   web:
     build: .
     environment:
+      LETSENCRYPT_HOST: phl-park.mdel.io
       VIRTUAL_HOST: phl-park.mdel.io
+      VIRTUAL_PORT: 80
+
+  cors:
+    image: imjacobclark/cors-container
+    environment:
+      LETSENCRYPT_HOST: cors.phl-park.mdel.io
+      VIRTUAL_HOST: cors.phl-park.mdel.io
       VIRTUAL_PORT: 80

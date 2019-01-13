@@ -5,7 +5,7 @@ export function fetchParkingData () {
   return (dispatch) => {
     dispatch(requestParkingData())
 
-    return fetch('https://api.phila.gov/airport-parking/v1')
+    return fetch('https://cors.phl-park.mdel.io/http://www.philapark.org/wp-content/plugins/locator/availability.php')
       .then(response => response.json())
       .then(json => dispatch(receiveParkingData(json)))
   }
